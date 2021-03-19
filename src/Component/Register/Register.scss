@@ -1,0 +1,120 @@
+.register {
+    h1 {
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
+        color: #6c63ff;
+        background: #2c2a2f;
+    }
+
+    background: #a9a4ff61;
+    background: radial-gradient(circle, white 0%, #4f9ddb 100%);
+    width: 100vw;
+    height: 100vw;
+
+    .register-wrapper {
+        padding: 2rem;
+        display: flex;
+
+        // margin: 2rem;
+        // padding: 2rem:
+        p {
+            color: #9f616a;
+        }
+
+        .img {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            // background-color: #cbcdd2;
+            // padding-top: 1rem;
+
+            img {
+                width: 40rem;
+            }
+        }
+
+        .register-form {
+            width: 50%;
+            margin: 1rem 3rem;
+            display: flex;
+            /* justify-content: center; */
+            /* border: 1px solid black; */
+            // align-items: center;
+            // background: #c4c3c8;
+            flex-direction: column;
+            // padding-top: 1rem;
+
+            input {
+                width: 25rem;
+                box-sizing: border-box;
+                border: none;
+                outline: none;
+                padding: .7rem;
+                margin: 1rem;
+                border-radius: .3rem;
+                color: #9f616a;
+            }
+
+            input::placeholder {
+                color: #9f616a;
+            }
+
+            li {
+
+                padding: 0 .5rem;
+                margin: 0 1rem;
+                color: #9f616a;
+
+            }
+
+            .select-role {
+                padding: 0 .5rem;
+                margin: 0 1rem;
+                color: #9f616a;
+
+                input {
+                    width: 1rem;
+                }
+            }
+
+            .img-upload {
+                display: flex;
+                position: relative;
+
+                // width: 5rem;
+                span {
+                    width: 6rem;
+                    height: 6rem;
+                    left: 334px;
+                    overflow: hidden;
+                    position: absolute;
+                    top: -38px;
+
+                }
+
+                img {
+                    // height: 5rem;
+                    width: 5rem;
+                }
+            }
+
+            button {
+                width: 25rem;
+                box-sizing: border-box;
+                padding: .7rem;
+                background: #2c2a2f;
+                color: #fdfdfd;
+                margin: 0.5rem 1rem;
+                outline: none;
+                border: none;
+                border-radius: .3rem;
+            }
+
+            li {
+                list-style: none;
+                // background: ;
+            }
+        }
+    }
+}
